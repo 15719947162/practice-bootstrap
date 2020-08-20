@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>媒体查询</title>
+    <style>
+        /* 视图宽度在600px到1200px的时候，html背景颜色变成红色 */
+        @media screen and (min-width: 600px) and (max-width:1200px) {
+            html {
+                background-color: red;
+            }
+        }
+        /* 视图宽度不在600px到1200px的时候，html背景颜色变成红色 */
+        @media not screen and (min-width: 600px) and (max-width:1200px) {
+            html {
+                background-color: blue;
+            }
+        }
+
+        /*
+        可以查询浏览器或设备分辨率，一般都是匹配宽，高和宽高比。
+        */
+    </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
